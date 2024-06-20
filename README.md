@@ -12,7 +12,7 @@ comes with a LSP for Vim users.
 
 ## Start the application
 
-Run `npx nx serve transloco-test` to start the development server. Happy coding!
+Run `npm exec nx serve transloco-test --devRemotes=remote-app  ` to start the development server. Happy coding!
 
 ## Build for production
 
