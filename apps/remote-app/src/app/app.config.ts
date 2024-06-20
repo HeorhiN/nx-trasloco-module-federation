@@ -11,6 +11,10 @@ export const appConfig: ApplicationConfig = {
   providers: [
     provideZoneChangeDetection({ eventCoalescing: true }),
     provideRouter(appRoutes),
-    importProvidersFrom(TranslocoRootModule.forRoot({})),
+    importProvidersFrom(
+      TranslocoRootModule.forRoot({
+        defaultLang: 'en',
+      })
+    ),
   ],
 };

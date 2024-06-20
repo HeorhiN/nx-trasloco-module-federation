@@ -15,13 +15,7 @@
         "main": "apps/transloco-test/src/main.ts",
         "polyfills": ["zone.js"],
         "tsConfig": "apps/transloco-test/tsconfig.app.json",
-        "inlineStyleLanguage": "scss",
-        "assets": [
-          {
-            "glob": "**/*",
-            "input": "apps/transloco-test/public"
-          }
-        ],
+        "assets": ["apps/transloco-test/src/assets"],
         "styles": ["apps/transloco-test/src/styles.scss"],
         "scripts": []
       },
